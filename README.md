@@ -8,10 +8,15 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 1.Import the required libraries.
+
 2.Upload and read the dataset.
+
 3.Gather information and presence of null in the dataset.
+
 4.From sklearn.tree import DecisionTreeRegressor and fir the model. 5.Find the mean square error and r squared score value of the model.
+
 5.Check the trained model.
 
 ## Program:
@@ -44,32 +49,32 @@ r2= metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
 
-
 ```
-
-
-
-
 
 ## Output:
 
 ## Initial Dataset :
 
+
 ![173230536-7245e0ea-a021-4411-957c-7bee1e78dd1c](https://github.com/vaishnavishaji/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/151444759/a67c761e-8061-402e-9c62-71dfd3272dd8)
 
 ## Dataset Information :
+
 
 ![173230601-87c26093-c70a-4dad-ab83-792fb21cbb5e](https://github.com/vaishnavishaji/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/151444759/64a73ce0-04ae-46f1-899d-4ad24349a8d0)
 
 ## Null Dataset:
 
+
 ![173230704-2d0d9052-ed13-4427-8b71-eb211e232fce](https://github.com/vaishnavishaji/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/151444759/32a0e10c-acd7-47cc-b25c-08127442dc12)
 
 ## Encoded Dataset:
 
+
 ![173230794-f1c456d8-134a-4180-a887-a93ad3fc1deb](https://github.com/vaishnavishaji/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/151444759/90eabc58-8795-4e5f-be82-d52280ca8543)
 
 ## Mean Square Error Value:
+
 
 ![173230842-5c93b33e-f752-4132-b8ff-a933e255247c](https://github.com/vaishnavishaji/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/151444759/671936a1-bedd-456c-8a03-ea5ee7d485d9)
 
